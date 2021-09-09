@@ -38,3 +38,10 @@ Adobe Photoshop, Illustrator, Figma
 + Russian - Native  
 + Ukrainian - Native  
 + Polish - Basic  
+**********************  
+### **My works:**  
++ (Jupiter project)[https://jupiter.mila-projects.com]: Used HTML5, CSS3, Sass, JS, Canvas, Particles.js, Swiper.js, Gulp   
++ (SPA Portfolio (Vue.js))[https://github.com/bo-mila/projloft]: Used HTML5, CSS3, JS, Vue.js, Vuex, Webpack, Pug, Sass, Slick.js  
++ (Editor for HTML code (Vue.js))[https://editorhtml.mila-projects.com]: Used HTML5, CSS3, JS, Vue.js, Sass  
++ (Tree (Factorial Tree))[https://github.com/bo-mila/tree]: Used HTML, CSS3, JS, Canvas  
+**********************  
