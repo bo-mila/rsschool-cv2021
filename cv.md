@@ -10,7 +10,7 @@
 ### **Briefly About Myself:**  
 I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position  
 with Company to use my skills in coding, troubleshooting complex problems, and assisting  
-in the timely completion of projects.
+in the timely completion of projects.  
 **********************  
 ### **Skills and Proficiency:**  
 HTML5, CSS3  
@@ -21,7 +21,7 @@ Gulp, Webpack, Pug
 Git, GitHub  
 VS Code  
 Adobe Photoshop, Illustrator, Figma  
-**********************  
+**********************    
 ### **Courses:**  
 + University: Kherson National Technical University  
 + HTML and CSS Tutorials on the w3schools (completed)  
