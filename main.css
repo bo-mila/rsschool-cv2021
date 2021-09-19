@@ -709,15 +709,14 @@ address {
 
 .title {
   font-weight: 700;
-  font-size: 46px;
+  font-size: 52px;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #252A32; }
 
 .subtitle {
   font-weight: 500;
-  font-size: 36px;
-  letter-spacing: 2px;
+  letter-spacing: -2px;
   margin-bottom: 10px; }
 
 .subtitle--occ {
@@ -725,13 +724,13 @@ address {
   -webkit-text-stroke-width: .8px;
   -webkit-text-stroke-color: #252A32;
   margin-bottom: 20px;
-  font-size: 38px;
-  letter-spacing: 0; }
+  font-size: 36px;
+  letter-spacing: 2px; }
 
 .myself {
   position: relative;
   width: 100%;
-  padding: 10px 0px 0px;
+  padding: 15px 0px 0px;
   margin-bottom: 20px; }
 
 .myself::before {
@@ -743,6 +742,30 @@ address {
   height: 1px;
   background-color: #252A32;
   opacity: .3; }
+
+.myself__title span {
+  font-size: 31px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .myself__title span:nth-child(7) {
+    margin-right: 8px; }
+  .myself__title span:nth-child(12) {
+    margin-right: 8px; }
+  .myself__title span:hover {
+    color: #d6974a;
+    font-size: 28px;
+    text-shadow: 1px -5px 5px rgba(78, 78, 78, 0.4), 0 0 1em;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+
+.myself__desc {
+  width: 90%; }
+
+.myself p {
+  line-height: 1.6; }
 
 .courses {
   position: relative;
