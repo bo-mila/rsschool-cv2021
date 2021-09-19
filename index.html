@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./main.css">
   <title>CV Mila Bozhevskaya</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
           </nav>
         </header>
         <main class="main">
-          <div class="col-left">
+          <aside class="main__asside">
             <div class="avatar">
               <img src="./img/avatar.jpg" alt="Photo of Mila Bozhevskaya" class="avatar__img">
             </div>
@@ -42,20 +42,78 @@
               <h3 class="contacts__title">Contact information:</h3>
               <ul class="contacts__list">
                 <li class="contacts__item tel">
+                  <div class="contacts__item-img">
+                    <svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.34875 1.55983L1.63317 2.7232C1.63317 2.7232 -1.08363 6.44354 4.73808 12.2846C4.73808 12.2967 4.75021 12.3088 4.76234 12.321C4.77446 12.3331 4.77446 12.3452 4.78659 12.3452C10.6447 18.1499 14.356 15.4475 14.356 15.4475L15.5325 14.7325C16.1996 14.2235 16.2723 13.242 15.678 12.6482L14.2833 11.2545C13.7981 10.7698 13.0219 10.7092 12.4761 11.1212L10.9964 12.0786C10.9964 12.0786 10.0019 12.6724 7.20018 9.88516C4.41061 7.08582 5.00491 6.09211 5.00491 6.09211L5.95093 4.60155C6.36331 4.05622 6.30266 3.28064 5.81752 2.79591L4.43486 1.40229C3.84056 0.808491 2.85815 0.881202 2.34875 1.55983Z" />
+                      </svg>
+                  </div>
                   <h5 class="contacts__item-title tel__title">Phone</h5>
-                  <a class="contacts__item-ref tel__ref" href="tel:+380997303391">+38 099 730 33 91</a>
+                  <a class="contacts__item-ref tel__ref" href="tel:+380997303391" target="_blank">+38 099 730 33 91</a>
                 </li>
                 <li class="contacts__item email">
+                  <div class="contacts__item-img">
+                    <svg  viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16.7065 1H1V11.5915H16.7065V1Z" />
+                      <path d="M10.0479 6.96225C9.36871 7.56817 8.34991 7.56817 7.67071 6.96225L4.92965 4.51433L1 1.01212H8.85931H16.7186L12.789 4.51433L10.0479 6.96225Z" />
+                      <path d="M10.8605 6.29573L12.789 8.01655L16.7065 11.5188H8.85931H1L4.92965 8.01655L6.8581 6.29573" />
+                    </svg>
+                  </div>
                   <h5 class="contacts__item-title email__title">E-mail</h5>
-                  <a class="contacts__item-ref email__ref" href="mailto:mi.bozhev@gmail.com">mi.bozhev@gmail.com</a>
+                  <a class="contacts__item-ref email__ref" href="mailto:mi.bozhev@gmail.com" target="_blank">mi.bozhev@gmail.com</a>
                 </li>
                 <li class="contacts__item telegram">
+                  <div class="contacts__item-img contacts__item-img--fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                      <g>
+                        <g>
+                          <g>
+                            <path d="M385.268,121.919l-210.569,129.69c-11.916,7.356-17.555,21.885-13.716,35.323l22.768,80
+                              c1.945,6.821,8.015,11.355,14.999,11.355c0.389,0,0.782-0.014,1.176-0.043c7.466-0.542,13.374-6.103,14.367-13.515l5.92-43.866
+                              c0.798-5.902,3.642-11.392,8.001-15.45l173.765-161.524c5.251-4.869,5.945-12.842,1.618-18.545
+                              C399.263,119.636,391.388,118.16,385.268,121.919z M214.32,290.478c-7.808,7.268-12.895,17.089-14.323,27.655l-2.871,21.278
+                              l-16.527-58.072c-1.343-4.704,0.635-9.791,4.805-12.365l154.258-95.007L214.32,290.478z"/>
+                            <path d="M503.67,37.382c-6.579-5.576-15.657-7.111-23.698-4.005L15.08,212.719C5.873,216.27-0.047,224.939,0,234.804
+                              c0.048,9.874,6.055,18.495,15.316,21.965l108.59,40.529l42.359,136.225c2.326,7.489,8.197,13.308,15.703,15.566
+                              c7.502,2.256,15.604,0.643,21.66-4.31l63.14-51.473c3.032-2.472,7.362-2.594,10.528-0.295l113.883,82.681
+                              c4.097,2.978,8.932,4.511,13.823,4.511c2.865,0,5.749-0.526,8.517-1.596c7.486-2.895,12.93-9.312,14.56-17.163l83.429-401.309
+                              C513.26,51.685,510.257,42.967,503.67,37.382z M491.536,55.99l-83.428,401.308c-0.302,1.45-1.346,2.053-1.942,2.284
+                              c-0.6,0.232-1.785,0.489-2.997-0.393l-113.887-82.685c-5.091-3.696-11.077-5.531-17.052-5.531
+                              c-6.518,0-13.027,2.185-18.347,6.519l-63.154,51.485c-1.124,0.92-2.291,0.756-2.885,0.577c-0.598-0.18-1.665-0.69-2.099-2.086
+                              l-43.845-141.006c-0.937-3.013-3.217-5.423-6.173-6.527L22.462,237.662c-1.696-0.635-2.057-1.958-2.062-2.957
+                              c-0.005-0.99,0.343-2.307,2.023-2.955L487.316,52.409c0.002-0.001,0.005-0.002,0.008-0.003c1.51-0.583,2.627,0.087,3.159,0.537
+                              C491.017,53.398,491.867,54.398,491.536,55.99z"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M427.481,252.142c-5.506-1.196-10.936,2.299-12.131,7.804l-1.55,7.14c-1.195,5.505,2.299,10.936,7.804,12.131
+                            c0.729,0.158,1.456,0.234,2.174,0.234c4.695,0,8.92-3.262,9.958-8.037l1.55-7.14C436.48,258.769,432.985,253.338,427.481,252.142z
+                            "/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M417.281,299.122c-5.512-1.195-10.938,2.299-12.132,7.804l-23.459,108.051c-1.195,5.505,2.299,10.936,7.803,12.131
+                            c0.73,0.158,1.457,0.234,2.174,0.234c4.696,0,8.92-3.262,9.958-8.037l23.459-108.052
+                            C426.279,305.748,422.785,300.317,417.281,299.122z"/>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
                   <h5 class="contacts__item-title telegram__title">Telegram</h5>
-                  <a href="https://t.me/milabozhevskaya" class="contacts__item-ref telegram__ref">@milabozhevskaya </a>
+                  <a href="https://t.me/milabozhevskaya" class="contacts__item-ref telegram__ref" target="_blank">@milabozhevskaya </a>
                 </li>
                 <li class="contacts__item linkedin">
+                  <div class="contacts__item-img">
+                    <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.27168 17.5295C13.84 17.5295 17.5434 13.8292 17.5434 9.26474C17.5434 4.70025 13.84 1 9.27168 1C4.70336 1 1 4.70025 1 9.26474C1 13.8292 4.70336 17.5295 9.27168 17.5295Z" />
+                      <path d="M9.27165 17.5295C10.9664 17.5295 12.3402 13.8292 12.3402 9.26474C12.3402 4.70025 10.9664 1 9.27165 1C7.57695 1 6.20312 4.70025 6.20312 9.26474C6.20312 13.8292 7.57695 17.5295 9.27165 17.5295Z" />
+                      <path d="M9.27168 4.99906C6.8581 4.99906 4.68708 4.4901 3.17101 3.69028C1.82474 5.15661 1 7.10767 1 9.25262C1 11.3976 1.82474 13.3486 3.17101 14.815C4.68708 14.0151 6.84597 13.5062 9.27168 13.5062C11.6974 13.5062 13.8563 14.0151 15.3723 14.815C16.7186 13.3486 17.5434 11.3976 17.5434 9.25262C17.5434 7.10767 16.7186 5.15661 15.3723 3.69028C13.8563 4.50222 11.6853 4.99906 9.27168 4.99906Z" />
+                      </svg>
+                  </div>
                   <h5 class="contacts__item-title linkedin__title">LinkedIn</h5>
-                  <a href="https://www.linkedin.com/in/mila-bozhevskaya-63a27919a" class="contacts__item-ref linkedin__ref">mila-bozhevskaya</a>
+                  <a href="https://www.linkedin.com/in/mila-bozhevskaya-63a27919a" class="contacts__item-ref linkedin__ref" target="_blank">mila-bozhevskaya</a>
                 </li>
               </ul>
             </section>
@@ -66,23 +124,24 @@
                 <li class="skills__item">JavaScript(ES6), jQuery</li>
                 <li class="skills__item">Canvas, Tree.js</li>
                 <li class="skills__item">Vue.js, Vuex</li>
-                <li class="skills__item">Gulp, Webpack, Pug</li>
+                <li class="skills__item">Gulp, Webpack</li>
+                <li class="skills__item">Sass, Pug</li>
                 <li class="skills__item">Git, GitHub</li>
                 <li class="skills__item">VS Code</li>
                 <li class="skills__item">Adobe Photoshop, Figma</li>
               </ul>
             </section>
             <section class="language">
-              <h3 class="language__title subtitle">Languages:</h3>
+              <h3 class="language__title">Languages:</h3>
               <ul class="language__list">
-                <li class="language__item">English - Pre-Intermediate/Intermediate</li>
-                <li class="language__item">Russian - Native</li>
                 <li class="language__item">Ukrainian - Native</li>
+                <li class="language__item">Russian - Native</li>
                 <li class="language__item">Polish - Basic</li>
+                <li class="language__item">English - Pre-Intermediate</li>
               </ul>
             </section>
-          </div>
-          <div class="col-right">
+          </aside>
+          <div class="main__content">
             <h1 class="title">Mila Bozhevskaya</h1>
             <h2 class="subtitle subtitle--occ">Junior Frontend Developer</h2>
             <section class="myself" id="aboutme">

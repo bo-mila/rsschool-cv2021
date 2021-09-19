@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  padding: 30px 30px;
+  background-color: #252A32;
+  color: #F6F9FE;
+  font-family: 'Roboto';
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__git {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eaaa5e;
+  width: 22%;
+  text-align: center;
+  line-height: 1.6;
+}
+.footer__info {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer__course-ref {
+  color: bisque;
+}
+.footer__img {
+  width: 20%;
+}
+.footer__pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

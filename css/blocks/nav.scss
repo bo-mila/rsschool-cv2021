@@ -1,0 +1,20 @@
+.nav {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__item {
+  display: flex;
+  border-bottom: 1px solid currentColor;
+}
+.nav__item:hover {
+  color: bisque;
+}
+.nav__ref {
+  padding: 0px 0px 10px;
+}
