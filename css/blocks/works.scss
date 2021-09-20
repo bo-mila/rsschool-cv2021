@@ -20,6 +20,9 @@
   display: flex;
   margin-bottom: 20px;
   align-items: center;
+  @include tablets {
+    font-size: 26px;
+  }
   & span {
     transition: .3s;
     &:nth-child(3) {

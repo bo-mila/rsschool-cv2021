@@ -381,6 +381,9 @@ html, body {
   flex-direction: column;
   -webkit-box-shadow: -5px 5px 20px 5px #4e4e4e;
   box-shadow: -5px 5px 20px 5px #4e4e4e; }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 96%; } }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -433,6 +436,9 @@ address {
   width: 88%;
   font-size: 18px;
   font-weight: 400; }
+  @media screen and (max-width: 1200px) {
+    .nav {
+      width: 94%; } }
 
 .nav__list {
   display: -webkit-box;
@@ -495,6 +501,9 @@ address {
   .nav__ref span {
     font-size: 28px;
     font-weight: 500; }
+    @media screen and (max-width: 1200px) {
+      .nav__ref span {
+        font-size: 23px; } }
     .nav__ref span:nth-child(even) {
       z-index: 0; }
     .nav__ref span:nth-child(odd) {
@@ -529,6 +538,9 @@ address {
   background-color: #252A32;
   padding: 30px 20px 30px;
   color: #F6F9FE; }
+  @media screen and (max-width: 1200px) {
+    .main__asside {
+      padding: 20px 8px; } }
 
 .main__content {
   display: -webkit-box;
@@ -541,6 +553,9 @@ address {
   padding: 30px 20px 30px;
   font-family: 'Roboto';
   font-size: 18px; }
+  @media screen and (max-width: 1200px) {
+    .main__content {
+      padding: 20px 14px 20px; } }
 
 .avatar {
   display: block;
@@ -582,6 +597,10 @@ address {
   letter-spacing: 2px;
   margin-bottom: 10px;
   text-align: center; }
+  @media screen and (max-width: 1200px) {
+    .contacts__title {
+      font-size: 21px;
+      letter-spacing: 0; } }
 
 .contacts__list {
   width: 100%;
@@ -638,10 +657,17 @@ address {
   font-weight: 500;
   margin-right: 10px;
   font-size: 18px; }
+  @media screen and (max-width: 1200px) {
+    .contacts__item-title {
+      margin-right: 5px;
+      font-size: 14px; } }
 
 .contacts__item-ref {
   font-weight: 400;
   font-size: 16px; }
+  @media screen and (max-width: 1200px) {
+    .contacts__item-ref {
+      font-size: 14px; } }
 
 .skills {
   display: -webkit-box;
@@ -670,6 +696,10 @@ address {
   font-size: 28px;
   letter-spacing: 2px;
   margin-bottom: 14px; }
+  @media screen and (max-width: 1200px) {
+    .skills__title {
+      font-size: 25px;
+      margin-bottom: 10px; } }
 
 .skills__list {
   width: 100%;
@@ -703,6 +733,9 @@ address {
   border-bottom: none;
   border-left: 1px solid #dbc4a6;
   border-right: 1px solid #dbc4a6; }
+  @media screen and (max-width: 1200px) {
+    .skills__item {
+      font-size: 18px; } }
   .skills__item:last-child {
     margin-bottom: 0; }
 
@@ -735,6 +768,9 @@ address {
   font-size: 25px;
   letter-spacing: 2px;
   margin-bottom: 10px; }
+  @media screen and (max-width: 1200px) {
+    .language__title {
+      font-size: 22px; } }
 
 .language__list {
   width: 100%;
@@ -758,6 +794,9 @@ address {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media screen and (max-width: 1200px) {
+    .language__item {
+      font-size: 16px; } }
 
 .title {
   font-weight: 700;
@@ -765,6 +804,10 @@ address {
   letter-spacing: 2px;
   margin-bottom: 15px;
   color: #252A32; }
+  @media screen and (max-width: 1200px) {
+    .title {
+      font-size: 42px;
+      margin-bottom: 10px; } }
 
 .subtitle {
   font-weight: 500;
@@ -784,6 +827,10 @@ address {
   margin-bottom: 20px;
   font-size: 36px;
   letter-spacing: 2px; }
+  @media screen and (max-width: 1200px) {
+    .subtitle--occ {
+      font-size: 31px;
+      margin-bottom: 15px; } }
 
 .subtitle__img {
   margin-right: 10px;
@@ -839,6 +886,9 @@ address {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 1200px) {
+    .myself__title span {
+      font-size: 26px; } }
   .myself__title span:nth-child(8) {
     margin-right: 8px; }
   .myself__title span:nth-child(13) {
@@ -856,6 +906,9 @@ address {
 
 .myself p {
   line-height: 1.6; }
+  @media screen and (max-width: 1200px) {
+    .myself p {
+      font-size: 16px; } }
 
 .courses {
   position: relative;
@@ -875,6 +928,9 @@ address {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 1200px) {
+    .courses__title span {
+      font-size: 26px; } }
   .courses__title span:hover {
     color: #d6974a;
     font-size: 28px;
@@ -955,6 +1011,9 @@ address {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 1200px) {
+    .works__title {
+      font-size: 26px; } }
   .works__title span {
     -webkit-transition: .3s;
     -o-transition: .3s;
@@ -1120,6 +1179,9 @@ address {
   width: 40%;
   font-size: 20px;
   font-weight: 400; }
+  @media screen and (max-width: 1200px) {
+    .footer__info {
+      font-size: 18px; } }
 
 .footer__course-ref {
   color: bisque; }

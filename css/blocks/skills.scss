@@ -16,6 +16,10 @@
   font-size: 28px;
   letter-spacing: 2px;
   margin-bottom: 14px;
+  @include tablets {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 }
 .skills__list {
   width: 100%;
@@ -39,6 +43,9 @@
   border-bottom: none;
   border-left: 1px solid $subtitle;
   border-right: 1px solid $subtitle;
+  @include tablets {
+    font-size: 18px;
+  }
   &:last-child {
     margin-bottom: 0;
   }

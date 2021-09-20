@@ -20,6 +20,9 @@
   transition: .3s;
   display: flex;
   align-items: center;
+  @include tablets {
+    font-size: 26px;
+  }
   &:nth-child(8) {
     margin-right: 8px;
   }
@@ -38,4 +41,7 @@
 }
 .myself p {
   line-height: 1.6;
+  @include tablets {
+    font-size: 16px;
+  }
 }

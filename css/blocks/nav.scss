@@ -2,6 +2,9 @@
   width: 88%;
   font-size: 18px;
   font-weight: 400;
+  @include tablets {
+    width: 94%;
+  }
 }
 .nav__list {
   display: flex;
@@ -50,6 +53,9 @@
   & span {
     font-size: 28px;
     font-weight: 500;
+    @include tablets {
+      font-size: 23px;
+    }
     &:nth-child(even) {
       z-index: 0;
     }

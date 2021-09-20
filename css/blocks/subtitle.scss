@@ -12,6 +12,10 @@
   margin-bottom: 20px;
   font-size: 36px;
   letter-spacing: 2px;
+  @include tablets {
+    font-size: 31px;
+    margin-bottom: 15px;
+  }
 }
 .subtitle__img  {
   margin-right: 10px;

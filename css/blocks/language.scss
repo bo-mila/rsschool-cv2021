@@ -16,6 +16,9 @@
   font-size: 25px;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  @include tablets {
+    font-size: 22px;
+  }
 }
 .language__list {
   width: 100%;
@@ -28,4 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @include tablets {
+    font-size: 16px;
+  }
 }

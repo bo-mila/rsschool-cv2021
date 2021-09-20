@@ -15,6 +15,10 @@
   letter-spacing: 2px;
   margin-bottom: 10px;
   text-align: center;
+  @include tablets {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
 }
 .contacts__list {
   width: 100%;
@@ -60,8 +64,15 @@
   font-weight: 500;
   margin-right: 10px;
   font-size: 18px;
+  @include tablets {
+    margin-right: 5px;
+    font-size: 14px;
+  }
 }
 .contacts__item-ref {
   font-weight: 400;
   font-size: 16px;
+  @include tablets {
+    font-size: 14px;
+  }
 }
