@@ -1,0 +1,23 @@
+$subtitle: rgb(219, 196, 166);
+$orange: #d6974a;
+
+@import "./css/_misc/normalize.scss";
+@import "./css/_misc/media.scss";
+@import "./css/_misc/layout.scss";
+
+@import "./css/blocks/header.scss";
+@import "./css/blocks/nav.scss";
+@import "./css/blocks/main.scss";
+@import "./css/blocks/avatar.scss";
+@import "./css/blocks/contacts.scss";
+@import "./css/blocks/skills.scss";
+@import "./css/blocks/language.scss";
+@import "./css/blocks/title.scss";
+@import "./css/blocks/subtitle.scss";
+@import "./css/blocks/myself.scss";
+@import "./css/blocks/courses.scss";
+@import "./css/blocks/works.scss";
+@import "./css/blocks/code.scss";
+@import "./css/blocks/name.scss";
+@import "./css/blocks/footer.scss";
+@import "./css/blocks/hamb.scss";
