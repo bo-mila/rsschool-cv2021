@@ -51,6 +51,9 @@
   & h4 {
     font-size: 20px;
   }
+  @include phones {
+    flex-direction: column;
+  }
 }
 .works__item:last-child {
   margin-bottom: 0;
@@ -61,6 +64,9 @@
   // align-items: center;
   width: 35%;
   margin-right: 10px;
+  @include phones {
+    width: 100%;
+  }
 }
 .works__name {
   font-size: 22px;

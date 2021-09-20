@@ -5,6 +5,9 @@
   color: #F6F9FE;
   padding: 30px 0px;    
   justify-content: center;
+  @include phones {
+    padding: 10px 0;
+  }
 }
 .header__container {
   display: flex;

@@ -50,6 +50,9 @@
     border: 2px solid $orange;
     margin-right: 10px;
   }
+  @include phones {
+    font-size: 17px;
+  }
 }
 .courses__name {
   margin-right: 10px;

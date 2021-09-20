@@ -7,6 +7,10 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  @include phones {
+    flex-direction: column;
+    padding: 20px 5px;
+  }
 }
 .footer__git {
   font-size: 18px;
@@ -15,6 +19,10 @@
   width: 22%;
   text-align: center;
   line-height: 1.6;
+  @include phones {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 .footer__git-ref {
   display: flex;
@@ -25,9 +33,15 @@
     width: 100%;
     font-size: 20px;
     line-height: 1;
+    @include phones {
+      font-size: 10px;
+    }
   }
   & p {
     font-size: 10px;
+    @include phones {
+      display: none;
+    }
   }
 }
 .footer__git-img {
@@ -45,12 +59,22 @@
   @include tablets {
     font-size: 18px;
   }
+  @include phones {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
 }
 .footer__course-ref {
   color: bisque;
 }
 .footer__img {
   width: 20%;
+  @include phones {
+    width: 44%;
+  }
 }
 .footer__pic {
   display: block;

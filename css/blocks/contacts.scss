@@ -5,6 +5,9 @@
   align-items: center;
   font-family: 'Roboto';
   margin-bottom: 50px;
+  @include phones {
+    margin-bottom: 10px;
+  }
 }
 .contacts__title {
   width: 100%;

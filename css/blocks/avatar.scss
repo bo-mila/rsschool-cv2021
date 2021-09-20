@@ -6,6 +6,9 @@
   max-width: 181px;
   max-height: 181px;
   margin-bottom: 50px;
+  @include phones {
+    margin-bottom: 10px;
+  }
 }
 .avatar__img {
   display: block;

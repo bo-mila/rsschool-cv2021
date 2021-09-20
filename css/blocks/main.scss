@@ -3,6 +3,9 @@
   width: 100%;
   background-color: #E5E5E5;
   color: #252A32;
+  @include phones {
+    flex-direction: column;
+  }
 }
 .main__asside {
   display: flex;
@@ -16,6 +19,10 @@
   @include tablets {
     padding: 20px 8px;
   }
+  @include phones {
+    width: 100%;
+    padding: 5px 5px;
+  }
 }
 .main__content {
   display: flex;
@@ -25,5 +32,10 @@
   font-size: 18px;
   @include tablets {
     padding: 20px 14px 20px;
+  }
+  & h1, h2 {
+    @include phones {
+      display: none;
+    }
   }
 }
