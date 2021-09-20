@@ -18,10 +18,12 @@
   font-size: 31px;
   cursor: pointer;
   transition: .3s;
-  &:nth-child(7) {
+  display: flex;
+  align-items: center;
+  &:nth-child(8) {
     margin-right: 8px;
   }
-  &:nth-child(12) {
+  &:nth-child(13) {
     margin-right: 8px;
   }
   &:hover {

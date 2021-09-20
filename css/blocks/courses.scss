@@ -1,8 +1,21 @@
 .courses {
   position: relative;
   width: 100%;
-  padding: 10px 0px 0px;
+  padding: 20px 0px 0px;
   margin-bottom: 20px;
+}
+.courses__title span {
+  font-size: 31px;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  &:hover {
+    color: $orange;
+    font-size: 28px;
+    text-shadow: 1px -5px 5px rgba(78, 78, 78, .4), 0 0 1em;
+    transition: .3s;
+  }
 }
 .courses::before {
   content: '';
@@ -23,10 +36,19 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
-  flex-wrap: wrap;
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
+  font-size: 20px;
+  &::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid $orange;
+    margin-right: 10px;
+  }
 }
-.courses__title {
+.courses__name {
   margin-right: 10px;
 }
 .courses__ref {
