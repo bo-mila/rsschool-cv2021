@@ -485,6 +485,8 @@ address {
     -webkit-transition: .6s;
     -o-transition: .6s;
     transition: .6s;
+    -webkit-box-shadow: -5px 5px 9px 5px rgba(219, 196, 166, 0.3);
+    box-shadow: -5px 5px 9px 5px rgba(219, 196, 166, 0.3);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
